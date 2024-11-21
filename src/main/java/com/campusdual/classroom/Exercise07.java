@@ -18,7 +18,7 @@ public class Exercise07 {
     // Si lo encuentra, que imprima el siguiente mensaje → El elemento X se encuentra en la posición: Y
     // Si NO lo encuentra, que imprima el siguiente mensaje → El elemento X no se encuentra en la lista.
     public static void positionInAList(int num) {
-        ArrayList<Integer> numeros =  new ArrayList<Integer>();
+        ArrayList<Integer> numeros =  new ArrayList<>();
         for (int i = 10; i>0 ; i--) {
             numeros.add(i);
         }
